@@ -22,6 +22,18 @@ python .\agent_business.py analytics
 
 O ficheiro `business_data.json` é criado localmente e não deve ser publicado.
 
+## Dashboard web
+
+Executa a aplicação local:
+
+```powershell
+python .\app.py
+```
+
+Abre `http://127.0.0.1:8000`. O dashboard permite correr pesquisa, ofertas e
+rascunhos de conteúdo. As ações continuam a ser apenas preparação: não enviam
+mensagens nem fazem compras.
+
 ## IA opcional
 
 Para usar um modelo compatível com a API OpenAI, define `OPENAI_API_KEY` e,
